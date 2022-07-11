@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: hello-rancher
-          image: sharkshashi/hello-rancher:1.0.1
+          image: sharkshashi/hello-rancher:latest
           imagePullPolicy: Always
           ports:
           - containerPort: 8080
