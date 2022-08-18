@@ -4,7 +4,7 @@ metadata:
   name: hello-rancher
   namespace: hello-rancher
 spec:
-  replicas: 3
+  replicas: 1
   selector:
     matchLabels:
       app: hello-rancher
@@ -27,7 +27,7 @@ spec:
             - name: TITLE
               value: Hello Rancher              
             - name: PETS
-              value: whitecows   
+              value: chameleon   
           readinessProbe:
             httpGet:
               port: web
