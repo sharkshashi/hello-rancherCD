@@ -1,4 +1,4 @@
-# CICD
+# hello-rancherCD
 
 hello-rancher images are available at https://hub.docker.com/repository/docker/sharkshashi/hello-rancher
 
